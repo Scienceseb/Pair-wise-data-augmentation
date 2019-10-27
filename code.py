@@ -5,7 +5,7 @@ import PIL
 from PIL import Image
 
 
-#Transform class for pairwise data augmentation, flip, random crop and random rotation, ColorJitter (possibly useful for denoising), you can add your transformation also.
+#Transform class for pairwise data augmentation, flip, random crop, random rotation, ColorJitter (possibly useful for denoising), you can add your transformation also.
 class PAIR_TRANFORMATIONS(object, h_flip=False, v_flip=False, Random_crop=False, Random_rotation_degree=0, ColorJitter=[0,0,0,0]):
 
     def __call__(self, input, target):
