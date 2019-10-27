@@ -7,6 +7,5 @@ on both images, if you have three images you can easily extend the code for that
 Code was made for: deep learning using PyTorch
 
 You need:
-PyTorch 
-PIL
+PyTorch and PIL
 
