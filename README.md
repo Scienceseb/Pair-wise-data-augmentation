@@ -8,4 +8,5 @@ Code was made for: deep learning using PyTorch
 
 You need:
 PyTorch 
+PIL
 
