@@ -1,6 +1,8 @@
 import random
 import torchvision.transforms.functional as TF
 import torchvision.transforms as transforms
+import PIL
+from PIL import Image
 
 
 #Transform class for pairwise data augmentation, flip, random crop and random rotation, ColorJitter (possibly useful for denoising), you can add your transformation also.
